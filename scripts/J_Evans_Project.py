@@ -2,14 +2,14 @@
 import pandas as pd
 
 # Read CSV files to variables
-Students = pd.read_csv("Students.csv")
-Teachers = pd.read_csv("Teachers.csv")
-Courses = pd.read_csv("Courses.csv")
-Batches = pd.read_csv("Batches.csv")
-Enrollments = pd.read_csv("Enrollments.csv")
-Payments = pd.read_csv("Payments.csv")
-Sessions = pd.read_csv("Sessions.csv")
-Attendance = pd.read_csv("Attendance.csv")
+Students = pd.read_csv("../data/Students.csv")
+Teachers = pd.read_csv("../data/Teachers.csv")
+Courses = pd.read_csv("../data/Courses.csv")
+Batches = pd.read_csv("../data/Batches.csv")
+Enrollments = pd.read_csv("../data/Enrollments.csv")
+Payments = pd.read_csv("../data/Payments.csv")
+Sessions = pd.read_csv("../data/Sessions.csv")
+Attendance = pd.read_csv("../data/Attendance.csv")
 
 # Test import/read of csvs
 # print(Students.to_string())
